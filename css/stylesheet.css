@@ -1,11 +1,118 @@
 
 body
 {
-background-color:#EEE9E3;
-text-margin: 0px;
+	width: 1000px;
+	background-color:#FFFFFF;
 }
 
-h1
-{
-	margin: 0px;
+#primary ul li {
+	 display: inline;
+	 padding-left: 35px;
+}
+
+#primary li a {
+	 padding: 5px 15px;
+	 color: #64645d;
+}
+
+#primary li a:hover {
+	 color: #dc692e;
+	 background: #efefe9;
+}
+
+#primary {
+	 width: 100%;
+	 height: 28px;
+	 background-color: #fafaf6;
+	 margin-top: 10px;
+	 margin-bottom: 20px;
+	 padding-top: 14px;
+	 -webkit-box-shadow: 0px 1px 2px #ccc;
+	 -moz-box-shadow: 0px 1px 2px #ccc;
+	 box-shadow: 0px 1px 2px #ccc;
+	 font: bold 13px "DroidSansBold", Verdana, sans-serif;
+	 text-transform: uppercase;
+	 letter-spacing: 1px;
+}
+
+#primary li a {
+	 padding: 5px 15px;
+	 color: #64645d;
+	 text-shadow: 1px 1px 1px #fff;
+}
+
+#primary li a {
+	 padding: 5px 15px;
+	 color: #64645d;
+	 text-shadow: 1px 1px 1px #fff;
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 960px;
+	padding: 0;
+}
+
+
+#main {
+	position: relative;
+	width: 100%;
+	height: 145px;
+}
+
+#logo {
+	position: absolute;
+	top: 8px;
+	left: 330px;
+	width: 141px;
+	height: 144px;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+	
+}
+
+#logo:hover {
+	opacity: .70;
+}
+
+#primary li a {
+	 padding: 5px 15px;
+	 color: #64645d;
+	 text-shadow: 1px 1px 1px #fff;
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+	 -webkit-transition: all .3s ease-in-out;
+	 -moz-transition: all .3s ease-in-out;
+	 -o-transition: all .3s ease-in-out;
+	 transition: all .3s ease-in-out;
+}
+
+#FORD {
+	 float: left;
+	 width: 230px;
+	 height: 152px;
+	 background: url(images/FORD Logo.jpeg) no-repeat;
+	 opacity:.65;
+}
+
+#FORD:hover {
+	opacity: 1;
+}
+
+#I-NET {
+	 float: right;
+	 width: 274px;
+	 height: 152px;
+	 background: url(images/IPSA logo.jpeg) no-repeat;
+	 opacity:.65;
+}
+
+#I-NET:hover {
+	opacity: 1;
 }
