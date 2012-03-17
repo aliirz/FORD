@@ -7,7 +7,7 @@ body
 
 #primary ul li {
 	 display: inline;
-	 padding-left: 35px;
+	 padding-left: 25px;
 }
 
 #primary li a {
@@ -64,7 +64,8 @@ body
 }
 
 #logo {
-	position: absolute;
+	float: none;
+	position: fixed;
 	top: 8px;
 	left: 330px;
 	width: 141px;
